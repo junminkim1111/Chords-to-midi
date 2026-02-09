@@ -2,13 +2,15 @@
 Ultimite Guitar URL을 가져와서 gemini가 코드진행을 분석 한 뒤 이를 midi 블럭으로 만드는 python 파일
 
 1. 필수 라이브러리 설치
-   '''
+```
   pip install streamlit google-genai playwright pretty_midi pychord
-  playwright install'''
+  playwright install
+```
 
 2. 앱 실행
-   '''
-   streamlit run app.py'''
+```
+   streamlit run app.py
+```
    
 3. Google Gemini API 키 입력
 웹 페이지 왼쪽 **사이드바(Sidebar)**를 확인합니다.
